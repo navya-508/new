@@ -28,7 +28,7 @@
     </tr>
     % for row in patients_with_appointments:
         <tr>
-            <td>{{ row[0] }}</td>  <!-- Using integer index instead of string key -->
+            <td>{{ row[0] }}</td>  
             <td>{{ row[1] }}</td>
             <td>{{ row[2] }}</td>
             <td>{{ row[3] }}</td>
